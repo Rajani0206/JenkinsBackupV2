@@ -1,4 +1,5 @@
 #!/bin/bash
+set -X
 
 # Configuration variables
 JENKINS_HOME="/var/lib/jenkins"  # Jenkins home directory (default for many Linux setups)
