@@ -1,0 +1,74 @@
+Started by user [8mha:////4OnN4tdGK7gUuvx+w0V2oq3Xe2c6+lYd/2e9hy0JRDUpAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYe/dLi1CL9osSsxLxMAEfDubbBAAAA[0mRajani S C
+[8mha:////4Iq7ugIVRYf/0WGXmejFfj5EMnh/G+ENIST9A2xQPjjYAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4DkjLwkIWYuqEI7iB3lIWFdlvSy20HMUIcUlSX6+Q0m6AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HJM83FWRJOWlX47xHmh0BmpJME517YCCuF0uT9s3pSQAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/Tomcat_install
+[8mha:////4AP0lN8N2w2Q7+MY/W5hmG9FYGDYLj23SdRRykZOveukAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Mq8kS+uSO9VeXvjTg79Q7N7MrQmxD3U4G/9Zr01018PAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4H/KbhuiAhbi1oLd3bN2iRAboPJZ3UWwmjomURQh74naAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Install Ansible)
+[8mha:////4KR1R9WXO3DDIxj8iaHXSqz6lruJoq5RRh9LmDYo/mCIAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ sudo apt-get update
+Hit:1 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble InRelease
+Get:2 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:3 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Ign:4 https://pkg.jenkins.io/debian-stable binary/ InRelease
+Hit:5 https://pkg.jenkins.io/debian-stable binary/ Release
+Get:6 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:7 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [770 kB]
+Get:8 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [151 kB]
+Get:9 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [972 kB]
+Get:10 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [309 kB]
+Get:11 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Get:12 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:13 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [208 B]
+Get:14 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [11.7 kB]
+Get:15 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [212 B]
+Get:16 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+Get:18 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [7232 B]
+Get:19 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.0 kB]
+Get:20 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+Get:21 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
+Fetched 2654 kB in 2s (1334 kB/s)
+Reading package lists...
++ sudo apt-get install -y software-properties-common
+Reading package lists...
+Building dependency tree...
+Reading state information...
+software-properties-common is already the newest version (0.99.49.1).
+0 upgraded, 0 newly installed, 0 to remove and 7 not upgraded.
++ sudo add-apt-repository ppa:ansible/ansible
+Hit:1 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports InRelease
+Ign:4 https://pkg.jenkins.io/debian-stable binary/ InRelease
+Hit:5 https://pkg.jenkins.io/debian-stable binary/ Release
+Hit:6 http://security.ubuntu.com/ubuntu noble-security InRelease
+Get:8 https://ppa.launchpadcontent.net/ansible/ansible/ubuntu noble InRelease [17.8 kB]
+Get:9 https://ppa.launchpadcontent.net/ansible/ansible/ubuntu noble/main amd64 Packages [772 B]
+Get:10 https://ppa.launchpadcontent.net/ansible/ansible/ubuntu noble/main Translation-en [472 B]
+Pausing
+Aborted by [8mha:////4OnN4tdGK7gUuvx+w0V2oq3Xe2c6+lYd/2e9hy0JRDUpAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYe/dLi1CL9osSsxLxMAEfDubbBAAAA[0mRajani S C
+Sending interrupt signal to process
+[8mha:////4K8bsXXP60Q0FlV6L5PVTBcHPoJpLuLTBQaU5LmV+8HkAAAA/B+LCAAAAAAAAP9dj7FOwzAURV9SwYw6Ijb250ZUbSjqBANIFVRqd2SCSZy4fsZ+pmXhI/gNWJD4BT6CH2BjZmAhKBPc5d7lHOk+f8JW8HBCvsRa2UbbUGh0JpbtwjX55sbQGkN0jjxjYOUCausi4/xisTy9d8obbZtzYrXz3nv9Gn9/pJDMoBe9YejPanknhZG2FAv22pZHGw97VbwOZLEgG8go/GMZTZ9epo/uLYX0DLaNsiVXne4WHiBp8d1/+HHXvzB0SVKAjWsHMiT7DFnF7CZCHGCWZTgcY344yQf5QNR0JZa0KiRftn9ZGiNGgpVf/QCuZnu9GAEAAA==[0mClick here to forcibly terminate running steps
+Resuming build at Sat Jan 11 20:23:17 UTC 2025 after Jenkins restart
+Still paused
+Resuming
+Aborted by [8mha:////4OnN4tdGK7gUuvx+w0V2oq3Xe2c6+lYd/2e9hy0JRDUpAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYe/dLi1CL9osSsxLxMAEfDubbBAAAA[0mRajani S C
+Sending interrupt signal to process
+Aborted by [8mha:////4OnN4tdGK7gUuvx+w0V2oq3Xe2c6+lYd/2e9hy0JRDUpAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYe/dLi1CL9osSsxLxMAEfDubbBAAAA[0mRajani S C
+Sending interrupt signal to process
+[8mha:////4BtrAfmUsDmkh7Q4h+aXao8J+p4LN+4AsDNIoslzYg45AAAA/h+LCAAAAAAAAP9dj71OwzAUhW9SwYwYERv7dUN/VdQJBpAqitTuyATjOHF9jX1Dy8JD8BqwIPEKPAQvwMbMwEJQJjjLOcv3Sef5E7ZigBMKGkvlKuNibtDbWjcL1xSqG0trjLX3FBgjKx/ROF8zXswXy9N7r4I1rjonVjvvndev0fdHCskMOnWwDLuzUt5JYaXTYsHBOH20CbBf1NeRHObkIlmFfyzD6dPL9NG/pZCewbZVTnPR6m7hAZIG3/uHH7f9C0ObJAXY+GYgQ3LA0C+Y/USIrIfZ4Qiz3gCz/mAy7o67oqQrsaRVLvmyuczSWjEUrMLqBzM+XUAbAQAA[0mClick here to forcibly terminate running steps
+After 20s process did not stop
+[8mha:////4CrAF9EyUk90bpobUrWpWjUMB++dPkHuZ7OtGH6vcZurAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4BtrAfmUsDmkh7Q4h+aXao8J+p4LN+4AsDNIoslzYg45AAAA/h+LCAAAAAAAAP9dj71OwzAUhW9SwYwYERv7dUN/VdQJBpAqitTuyATjOHF9jX1Dy8JD8BqwIPEKPAQvwMbMwEJQJjjLOcv3Sef5E7ZigBMKGkvlKuNibtDbWjcL1xSqG0trjLX3FBgjKx/ROF8zXswXy9N7r4I1rjonVjvvndev0fdHCskMOnWwDLuzUt5JYaXTYsHBOH20CbBf1NeRHObkIlmFfyzD6dPL9NG/pZCewbZVTnPR6m7hAZIG3/uHH7f9C0ObJAXY+GYgQ3LA0C+Y/USIrIfZ4Qiz3gCz/mAy7o67oqQrsaRVLvmyuczSWjEUrMLqBzM+XUAbAQAA[0mClick here to forcibly terminate running steps
+[8mha:////4Cfc8CDL8Bg49ccgeuZlbLEKGE7WaSTsVRhEfPVnhp5cAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4OOQ6FIfoSSgxkMOPWyf29oir3NIFqb4jVlunaG2WxX4AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4NZNLPNHfZD30HoRaLeqj6xgaWf0f2EpPXQsfqehWKq6AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Execute Ansible Playbook)
+Stage "Execute Ansible Playbook" skipped due to earlier failure(s)
+[8mha:////4JJcqHz/pfs8JnffAMFKnY5GtRkVkJdiVBzVb2XK6Fg1AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] getContext
+[8mha:////4MGEmhSoypyfxi0MzmshVDpVmVUnLrSOedGaOzUoIC0OAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4A5n0NkgrvjLVHPvGh3QEd/II7zHTRcqSpp8pdpN65RKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4KZBeSure5O0/AZb5wKqG0dmRG6/oOYH8f1PvKHCbJ7jAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP9aSlGr0AAAA=[0m[Pipeline] }
+[8mha:////4FjsYY7Qh1bV69n8Uf97Ofku9HknKQ1SeRVFJx7RFKeoAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIZLYcO9AAAA[0m[Pipeline] // node
+[8mha:////4OmKFwqVibrhrzOmOBfbGNOzYYzLSbFHZi9K1RUiQ+u5AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPoFIGib0AAAA=[0m[Pipeline] End of Pipeline
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: b9d4a11c-3d40-44d4-b5c6-a775e8a64733
+Finished: ABORTED

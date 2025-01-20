@@ -1,0 +1,359 @@
+Started by user [8mha:////4OnN4tdGK7gUuvx+w0V2oq3Xe2c6+lYd/2e9hy0JRDUpAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYe/dLi1CL9osSsxLxMAEfDubbBAAAA[0mRajani S C
+[8mha:////4Iq7ugIVRYf/0WGXmejFfj5EMnh/G+ENIST9A2xQPjjYAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4DkjLwkIWYuqEI7iB3lIWFdlvSy20HMUIcUlSX6+Q0m6AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4ErhxR44S6ExhAp40j13F1iVdRKl3LyMBMkSTfybosUDAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgYB/eT83ILSktQifT+gOw31AXmd66/FAAAA[0mNode1 in /opt/jenkins/workspace/Tomcat_install
+[8mha:////4AP0lN8N2w2Q7+MY/W5hmG9FYGDYLj23SdRRykZOveukAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Mq8kS+uSO9VeXvjTg79Q7N7MrQmxD3U4G/9Zr01018PAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4H/KbhuiAhbi1oLd3bN2iRAboPJZ3UWwmjomURQh74naAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Install Ansible)
+[8mha:////4KR1R9WXO3DDIxj8iaHXSqz6lruJoq5RRh9LmDYo/mCIAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ sudo apt-get update
+Hit:1 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble InRelease
+Get:2 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Hit:3 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports InRelease
+Ign:4 https://pkg.jenkins.io/debian-stable binary/ InRelease
+Hit:5 https://packages.grafana.com/oss/deb stable InRelease
+Hit:6 https://pkg.jenkins.io/debian-stable binary/ Release
+Hit:7 http://security.ubuntu.com/ubuntu noble-security InRelease
+Fetched 126 kB in 1s (115 kB/s)
+Reading package lists...
+W: https://packages.grafana.com/oss/deb/dists/stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
++ sudo apt-get install -y software-properties-common
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  python3-software-properties
+The following packages will be upgraded:
+  python3-software-properties software-properties-common
+2 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+Need to get 44.1 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 software-properties-common all 0.99.49.1 [14.4 kB]
+Get:2 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-software-properties all 0.99.49.1 [29.7 kB]
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Fetched 44.1 kB in 0s (2233 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 116119 files and directories currently installed.)
+Preparing to unpack .../software-properties-common_0.99.49.1_all.deb ...
+Unpacking software-properties-common (0.99.49.1) over (0.99.48) ...
+Preparing to unpack .../python3-software-properties_0.99.49.1_all.deb ...
+Unpacking python3-software-properties (0.99.49.1) over (0.99.48) ...
+Setting up python3-software-properties (0.99.49.1) ...
+Setting up software-properties-common (0.99.49.1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for dbus (1.14.10-4ubuntu4.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+User sessions running outdated binaries:
+ root @ session #46: sshd[54281]
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
++ sudo add-apt-repository ppa:ansible/ansible
+Hit:1 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:4 https://packages.grafana.com/oss/deb stable InRelease
+Ign:5 https://pkg.jenkins.io/debian-stable binary/ InRelease
+Hit:6 https://pkg.jenkins.io/debian-stable binary/ Release
+Hit:7 http://security.ubuntu.com/ubuntu noble-security InRelease
+Get:9 https://ppa.launchpadcontent.net/ansible/ansible/ubuntu noble InRelease [17.8 kB]
+Get:10 https://ppa.launchpadcontent.net/ansible/ansible/ubuntu noble/main amd64 Packages [772 B]
+Get:11 https://ppa.launchpadcontent.net/ansible/ansible/ubuntu noble/main Translation-en [472 B]
+Fetched 19.0 kB in 1s (15.4 kB/s)
+Reading package lists...
+W: https://packages.grafana.com/oss/deb/dists/stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+Repository: 'Types: deb
+URIs: https://ppa.launchpadcontent.net/ansible/ansible/ubuntu/
+Suites: noble
+Components: main
+'
+Description:
+Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems.
+
+http://ansible.com/
+
+If you face any issues while installing Ansible PPA, file an issue here:
+https://github.com/ansible-community/ppa/issues
+More info: https://launchpad.net/~ansible/+archive/ubuntu/ansible
+Adding repository.
++ sudo apt-get update
+Hit:1 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:4 https://packages.grafana.com/oss/deb stable InRelease
+Ign:5 https://pkg.jenkins.io/debian-stable binary/ InRelease
+Hit:6 https://pkg.jenkins.io/debian-stable binary/ Release
+Hit:7 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:8 https://ppa.launchpadcontent.net/ansible/ansible/ubuntu noble InRelease
+Reading package lists...
+W: https://packages.grafana.com/oss/deb/dists/stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
++ sudo apt-get install -y ansible
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  ansible-core python3-kerberos python3-nacl python3-ntlm-auth
+  python3-paramiko python3-requests-ntlm python3-resolvelib python3-winrm
+  python3-xmltodict sshpass
+Suggested packages:
+  python-nacl-doc python3-gssapi python3-invoke
+The following NEW packages will be installed:
+  ansible ansible-core python3-kerberos python3-nacl python3-ntlm-auth
+  python3-paramiko python3-requests-ntlm python3-resolvelib python3-winrm
+  python3-xmltodict sshpass
+0 upgraded, 11 newly installed, 0 to remove and 36 not upgraded.
+Need to get 19.2 MB of archives.
+After this operation, 213 MB of additional disk space will be used.
+Get:1 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble/universe amd64 python3-resolvelib all 1.0.1-1 [25.7 kB]
+Get:2 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble/universe amd64 python3-kerberos amd64 1.1.14-3.1build9 [21.2 kB]
+Get:3 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble/main amd64 python3-nacl amd64 1.5.0-4build1 [57.9 kB]
+Get:4 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble/universe amd64 python3-ntlm-auth all 1.5.0-1 [21.3 kB]
+Get:5 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-paramiko all 2.12.0-2ubuntu4.1 [137 kB]
+Get:6 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble/universe amd64 python3-requests-ntlm all 1.1.0-3 [6308 B]
+Get:7 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble/main amd64 python3-xmltodict all 0.13.0-1 [13.4 kB]
+Get:8 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble/universe amd64 python3-winrm all 0.4.3-2 [31.9 kB]
+Get:9 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble/universe amd64 sshpass amd64 1.09-1 [11.7 kB]
+Get:10 https://ppa.launchpadcontent.net/ansible/ansible/ubuntu noble/main amd64 ansible-core all 2.17.7-1ppa~noble [1015 kB]
+Get:11 https://ppa.launchpadcontent.net/ansible/ansible/ubuntu noble/main amd64 ansible all 10.7.0-1ppa~noble [17.8 MB]
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Fetched 19.2 MB in 1min 10s (275 kB/s)
+Selecting previously unselected package python3-resolvelib.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 116119 files and directories currently installed.)
+Preparing to unpack .../00-python3-resolvelib_1.0.1-1_all.deb ...
+Unpacking python3-resolvelib (1.0.1-1) ...
+Selecting previously unselected package ansible-core.
+Preparing to unpack .../01-ansible-core_2.17.7-1ppa~noble_all.deb ...
+Unpacking ansible-core (2.17.7-1ppa~noble) ...
+Selecting previously unselected package ansible.
+Preparing to unpack .../02-ansible_10.7.0-1ppa~noble_all.deb ...
+Unpacking ansible (10.7.0-1ppa~noble) ...
+Selecting previously unselected package python3-kerberos.
+Preparing to unpack .../03-python3-kerberos_1.1.14-3.1build9_amd64.deb ...
+Unpacking python3-kerberos (1.1.14-3.1build9) ...
+Selecting previously unselected package python3-nacl.
+Preparing to unpack .../04-python3-nacl_1.5.0-4build1_amd64.deb ...
+Unpacking python3-nacl (1.5.0-4build1) ...
+Selecting previously unselected package python3-ntlm-auth.
+Preparing to unpack .../05-python3-ntlm-auth_1.5.0-1_all.deb ...
+Unpacking python3-ntlm-auth (1.5.0-1) ...
+Selecting previously unselected package python3-paramiko.
+Preparing to unpack .../06-python3-paramiko_2.12.0-2ubuntu4.1_all.deb ...
+Unpacking python3-paramiko (2.12.0-2ubuntu4.1) ...
+Selecting previously unselected package python3-requests-ntlm.
+Preparing to unpack .../07-python3-requests-ntlm_1.1.0-3_all.deb ...
+Unpacking python3-requests-ntlm (1.1.0-3) ...
+Selecting previously unselected package python3-xmltodict.
+Preparing to unpack .../08-python3-xmltodict_0.13.0-1_all.deb ...
+Unpacking python3-xmltodict (0.13.0-1) ...
+Selecting previously unselected package python3-winrm.
+Preparing to unpack .../09-python3-winrm_0.4.3-2_all.deb ...
+Unpacking python3-winrm (0.4.3-2) ...
+Selecting previously unselected package sshpass.
+Preparing to unpack .../10-sshpass_1.09-1_amd64.deb ...
+Unpacking sshpass (1.09-1) ...
+Setting up python3-ntlm-auth (1.5.0-1) ...
+Setting up python3-resolvelib (1.0.1-1) ...
+Setting up python3-kerberos (1.1.14-3.1build9) ...
+Setting up ansible-core (2.17.7-1ppa~noble) ...
+Setting up sshpass (1.09-1) ...
+Setting up python3-xmltodict (0.13.0-1) ...
+Setting up ansible (10.7.0-1ppa~noble) ...
+Setting up python3-nacl (1.5.0-4build1) ...
+Setting up python3-requests-ntlm (1.1.0-3) ...
+Setting up python3-winrm (0.4.3-2) ...
+Setting up python3-paramiko (2.12.0-2ubuntu4.1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+User sessions running outdated binaries:
+ root @ session #46: sshd[54281]
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+[8mha:////4CrAF9EyUk90bpobUrWpWjUMB++dPkHuZ7OtGH6vcZurAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Cfc8CDL8Bg49ccgeuZlbLEKGE7WaSTsVRhEfPVnhp5cAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4OOQ6FIfoSSgxkMOPWyf29oir3NIFqb4jVlunaG2WxX4AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4NZNLPNHfZD30HoRaLeqj6xgaWf0f2EpPXQsfqehWKq6AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Execute Ansible Playbook)
+[8mha:////4JJcqHz/pfs8JnffAMFKnY5GtRkVkJdiVBzVb2XK6Fg1AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ ansible-playbook -i -b installationtomcat.yml
+usage: ansible-playbook [-h] [--version] [-v] [--private-key PRIVATE_KEY_FILE]
+                        [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT]
+                        [--ssh-common-args SSH_COMMON_ARGS]
+                        [--sftp-extra-args SFTP_EXTRA_ARGS]
+                        [--scp-extra-args SCP_EXTRA_ARGS]
+                        [--ssh-extra-args SSH_EXTRA_ARGS]
+                        [-k | --connection-password-file CONNECTION_PASSWORD_FILE]
+                        [--force-handlers] [--flush-cache] [-b]
+                        [--become-method BECOME_METHOD]
+                        [--become-user BECOME_USER]
+                        [-K | --become-password-file BECOME_PASSWORD_FILE]
+                        [-t TAGS] [--skip-tags SKIP_TAGS] [-C] [-D]
+                        [-i INVENTORY] [--list-hosts] [-l SUBSET]
+                        [-e EXTRA_VARS] [--vault-id VAULT_IDS]
+                        [-J | --vault-password-file VAULT_PASSWORD_FILES]
+                        [-f FORKS] [-M MODULE_PATH] [--syntax-check]
+                        [--list-tasks] [--list-tags] [--step]
+                        [--start-at-task START_AT_TASK]
+                        playbook [playbook ...]
+ansible-playbook: error: argument -i/--inventory/--inventory-file: expected one argument
+ 
+usage: ansible-playbook [-h] [--version] [-v] [--private-key PRIVATE_KEY_FILE]
+                        [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT]
+                        [--ssh-common-args SSH_COMMON_ARGS]
+                        [--sftp-extra-args SFTP_EXTRA_ARGS]
+                        [--scp-extra-args SCP_EXTRA_ARGS]
+                        [--ssh-extra-args SSH_EXTRA_ARGS]
+                        [-k | --connection-password-file CONNECTION_PASSWORD_FILE]
+                        [--force-handlers] [--flush-cache] [-b]
+                        [--become-method BECOME_METHOD]
+                        [--become-user BECOME_USER]
+                        [-K | --become-password-file BECOME_PASSWORD_FILE]
+                        [-t TAGS] [--skip-tags SKIP_TAGS] [-C] [-D]
+                        [-i INVENTORY] [--list-hosts] [-l SUBSET]
+                        [-e EXTRA_VARS] [--vault-id VAULT_IDS]
+                        [-J | --vault-password-file VAULT_PASSWORD_FILES]
+                        [-f FORKS] [-M MODULE_PATH] [--syntax-check]
+                        [--list-tasks] [--list-tags] [--step]
+                        [--start-at-task START_AT_TASK]
+                        playbook [playbook ...]
+
+Runs Ansible playbooks, executing the defined tasks on the targeted hosts.
+
+positional arguments:
+  playbook              Playbook(s)
+
+options:
+  --become-password-file BECOME_PASSWORD_FILE, --become-pass-file BECOME_PASSWORD_FILE
+                        Become password file
+  --connection-password-file CONNECTION_PASSWORD_FILE, --conn-pass-file CONNECTION_PASSWORD_FILE
+                        Connection password file
+  --flush-cache         clear the fact cache for every host in inventory
+  --force-handlers      run handlers even if a task fails
+  --list-hosts          outputs a list of matching hosts; does not execute
+                        anything else
+  --list-tags           list all available tags
+  --list-tasks          list all tasks that would be executed
+  --skip-tags SKIP_TAGS
+                        only run plays and tasks whose tags do not match these
+                        values. This argument may be specified multiple times.
+  --start-at-task START_AT_TASK
+                        start the playbook at the task matching this name
+  --step                one-step-at-a-time: confirm each task before running
+  --syntax-check        perform a syntax check on the playbook, but do not
+                        execute it
+  --vault-id VAULT_IDS  the vault identity to use. This argument may be
+                        specified multiple times.
+  --vault-password-file VAULT_PASSWORD_FILES, --vault-pass-file VAULT_PASSWORD_FILES
+                        vault password file
+  --version             show program's version number, config file location,
+                        configured module search path, module location,
+                        executable location and exit
+  -C, --check           don't make any changes; instead, try to predict some
+                        of the changes that may occur
+  -D, --diff            when changing (small) files and templates, show the
+                        differences in those files; works great with --check
+  -J, --ask-vault-password, --ask-vault-pass
+                        ask for vault password
+  -K, --ask-become-pass
+                        ask for privilege escalation password
+  -M MODULE_PATH, --module-path MODULE_PATH
+                        prepend colon-separated path(s) to module library
+                        (default={{ ANSIBLE_HOME ~
+                        "/plugins/modules:/usr/share/ansible/plugins/modules"
+                        }}). This argument may be specified multiple times.
+  -e EXTRA_VARS, --extra-vars EXTRA_VARS
+                        set additional variables as key=value or YAML/JSON, if
+                        filename prepend with @. This argument may be
+                        specified multiple times.
+  -f FORKS, --forks FORKS
+                        specify number of parallel processes to use
+                        (default=5)
+  -h, --help            show this help message and exit
+  -i INVENTORY, --inventory INVENTORY, --inventory-file INVENTORY
+                        specify inventory host path or comma separated host
+                        list. --inventory-file is deprecated. This argument
+                        may be specified multiple times.
+  -k, --ask-pass        ask for connection password
+  -l SUBSET, --limit SUBSET
+                        further limit selected hosts to an additional pattern
+  -t TAGS, --tags TAGS  only run plays and tasks tagged with these values.
+                        This argument may be specified multiple times.
+  -v, --verbose         Causes Ansible to print more debug messages. Adding
+                        multiple -v will increase the verbosity, the builtin
+                        plugins currently evaluate up to -vvvvvv. A reasonable
+                        level to start is -vvv, connection debugging might
+                        require -vvvv. This argument may be specified multiple
+                        times.
+
+Connection Options:
+  control as whom and how to connect to hosts
+
+  --private-key PRIVATE_KEY_FILE, --key-file PRIVATE_KEY_FILE
+                        use this file to authenticate the connection
+  --scp-extra-args SCP_EXTRA_ARGS
+                        specify extra arguments to pass to scp only (e.g. -l)
+  --sftp-extra-args SFTP_EXTRA_ARGS
+                        specify extra arguments to pass to sftp only (e.g. -f,
+                        -l)
+  --ssh-common-args SSH_COMMON_ARGS
+                        specify common arguments to pass to sftp/scp/ssh (e.g.
+                        ProxyCommand)
+  --ssh-extra-args SSH_EXTRA_ARGS
+                        specify extra arguments to pass to ssh only (e.g. -R)
+  -T TIMEOUT, --timeout TIMEOUT
+                        override the connection timeout in seconds (default
+                        depends on connection)
+  -c CONNECTION, --connection CONNECTION
+                        connection type to use (default=ssh)
+  -u REMOTE_USER, --user REMOTE_USER
+                        connect as this user (default=None)
+
+Privilege Escalation Options:
+  control how and which user you become as on target hosts
+
+  --become-method BECOME_METHOD
+                        privilege escalation method to use (default=sudo), use
+                        `ansible-doc -t become -l` to list valid choices.
+  --become-user BECOME_USER
+                        run operations as this user (default=root)
+  -b, --become          run operations with become (does not imply password
+                        prompting)
+[8mha:////4MGEmhSoypyfxi0MzmshVDpVmVUnLrSOedGaOzUoIC0OAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4A5n0NkgrvjLVHPvGh3QEd/II7zHTRcqSpp8pdpN65RKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4KZBeSure5O0/AZb5wKqG0dmRG6/oOYH8f1PvKHCbJ7jAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP9aSlGr0AAAA=[0m[Pipeline] }
+[8mha:////4FjsYY7Qh1bV69n8Uf97Ofku9HknKQ1SeRVFJx7RFKeoAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIZLYcO9AAAA[0m[Pipeline] // node
+[8mha:////4OmKFwqVibrhrzOmOBfbGNOzYYzLSbFHZi9K1RUiQ+u5AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPoFIGib0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 2
+Finished: FAILURE
