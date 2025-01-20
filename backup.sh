@@ -17,7 +17,7 @@ if [[ -n "$JOB_NAME" ]]; then
   # Backup only the specified job
   JOB_CONFIG_PATH="$JENKINS_HOME/jobs/$JOB_NAME/config.xml"
   JOB_BUILDS_PATH="$JENKINS_HOME/jobs/$JOB_NAME/builds"
-  BACKUP_PATH="$BACKUP_DIR/$JOB_NAME"
+  BACKUP_PATH="$BACKUP_DIR"
   mkdir -p "$BACKUP_PATH"
   echo "Backing up Jenkins job '$JOB_NAME'..."
   sudo cp "$JOB_CONFIG_PATH" "$BACKUP_PATH/config.xml"
